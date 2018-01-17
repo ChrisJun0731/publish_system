@@ -1,0 +1,8 @@
+{
+  "name": "publish_system",
+  "dependencies": {
+    "angular": "^1.6.8",
+    "requirejs": "^2.3.5",
+    "angular-ui-router": "^1.0.12"
+  }
+}
