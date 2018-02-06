@@ -29,6 +29,13 @@ app.use(express.static(path.join(__dirname, 'public')));
 //build connection
 mongoose.connect('mongodb://localhost/pub_sys');
 
+//session setting
+app.use(session({
+	secret: new Date().toDateString(),
+	resave: true,
+	saveUninitialized: true
+}));
+
 //router register
 app.use('/', loginController);
 app.use('/', registerController);

@@ -3,6 +3,7 @@
   "dependencies": {
     "angular": "^1.6.8",
     "requirejs": "^2.3.5",
-    "angular-ui-router": "^1.0.12"
+    "angular-ui-router": "^1.0.12",
+    "sockjs": "^0.3.4"
   }
 }
